@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resetear Contraseña</title>
+    <link rel="stylesheet" href="../styles/resetPwd.css">
+</head>
+<body>
+    <div class="contenedor-general">
+        <h1>Cambiar Contraseña</h1>
+        <div class="contenedor-marcadores">
+            <div class="contenedor-correo">                        
+                <input id="correo" type="text" placeholder="Correo">
+                <button id="btnSolicitud" class="botones-op">Enviar solicitud</button>
+            </div>            
+            <div class="contenedor-correo">           
+                <input id="codigo" type="text" placeholder="Codigo">
+                <button id="btnVerificar" class="botones-op">Verificar</button>
+            </div>
+            <div class="contenedor-correo">            
+                <input id="newContrasena" type="text" placeholder="Nueva Contraseña">
+                <button id="btnConfirmar" class="botones-op">Confirmar cambios</button>
+            </div>
+            <div class="contenedor-correo">
+                <button id="btnRegresar">Regresar</button>
+            </div>
+        </div>
+        <script src="../src/solicitarCambioPwd.js"></script>
+    </div>
+</body>
+</html>

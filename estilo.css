@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #0e1217;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#divForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-formulario{
+    background-color: rgb(27, 27, 27);
+    padding: 10px;
+}
+
+.contenedor-formulario h1{
+    color: white;
+    text-align: center;
+}
+
+.contenedor-formulario label{
+    color: white;
+}
+
+.input-box input{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.contenedor-colum-general{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-primeracolum{
+
+    margin: 10px;
+
+}
+
+.contenedor-segundacolum{
+
+    margin: 10px;
+}
+
+#divForm button{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#divForm button:hover{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+
+#volverPaginaPrincipal{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#volverPaginaPrincipal:hover{
+    border: 2px solid white;
+    background-color: #e03a3a;
+    color: white;
+    
+}
+
+select{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.contenedor-general{
+    background-color: #e03a3a;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+img{
+    width: 500px;
+    height: auto;
+}
+
+#contenedor-usuarioLogeado{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    align-items: center;
+}
+
+#verProductos{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#verProductos:hover{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    
+}
+
+.contenedor-botones{
+    display: flex;
+    flex-direction: row;
+    
+}

@@ -1,0 +1,118 @@
+*{
+    color: #333;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #0e1217;
+}
+
+.contenedor-general{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(170, 255, 80);
+    margin-top: 90px;
+}
+
+.contenedor-cartas{
+    background-color: rgb(123, 255, 0);
+    max-width: auto;
+    min-width: auto;
+    margin: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.carta {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.nombre-producto{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-color: rgb(253, 163, 52);
+    min-height: 50px;
+}
+
+.carta div{
+    color: white;
+    background-color: #ffffff00;
+    margin: 10px;
+}
+.carta div h1{
+    text-transform: uppercase;
+}
+
+.botones-op{
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.botones-op button {
+    margin: 5px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botones-op button:hover{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+
+.contenedor-opciones{
+    background-color: #0e1217;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
+.contenedor-opciones #fecha-busqueda::-webkit-calendar-picker-indicator {
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+.contenedor-opciones #fecha-busqueda {
+    padding: 10px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 6px;
+}
+
+.contenedor-opciones button {
+    margin: 5px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contenedor-opciones button:hover{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+
+#error{
+    text-align: center;
+    color: white;
+}

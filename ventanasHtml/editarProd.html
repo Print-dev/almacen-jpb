@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Producto</title>
+    <link rel="stylesheet" href="../estilo.css">
+</head>
+<body>
+  <div class="contenedor-general">      
+    <img src="../insignia.jpg" alt="">      
+    <div class="contenedor-formulario">
+      <h1>Editar Producto</h1>
+      <div action="" id="divForm">
+        <div class="contenedor-colum-general">
+          <div class="contenedor-primeracolum">
+            <label for="">Categoria</label>
+            <div class="input-box">
+              <select name="" id="categoriaProducto">
+                <option value="" selected>- ELEGIR CATEGORIA -</option>
+                <option value="limpieza">Limpieza</option>
+                <option value="oficina">Oficina</option>
+              </select>
+            </div>
+            <label for="">Descripcion</label>
+            <div class="input-box">
+                <input type="text" id="descripcion">
+            </div>
+            <label for="">Unidad De Medida</label>
+            <div class="input-box">
+                <input type="text" id="unidadmedida">
+            </div>
+            <label for="">Marca</label>
+            <div class="input-box">
+                <input type="text" id="marca">
+            </div>              
+          </div>
+          <div class="contenedor-segundacolum">
+            
+            <div class="input-box" hidden>
+              <input type="number" id="stock">
+            </div>
+            
+            <div class="input-box" hidden>
+              <input type="number" id="entrada">
+            </div>
+            <label for="">Observacion</label>
+            <div class="input-box">
+                <input type="text" id="observacion">
+            </div>            
+          </div>
+        </div>        
+        <Button id="registrarProd">Confirmar</Button>
+      </div>
+    </div>  
+  </div>
+  <script src="../src/editarProd.js"></script>
+</body>
+
+</html>
